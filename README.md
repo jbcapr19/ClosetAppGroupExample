@@ -23,18 +23,17 @@ Add them to an arraylist, and allow the user to look for a specific closet based
 then display the contents of that closet.
 
 
-public class Shirt {
-	private String material;
-	
-	public Shirt(){
-	}
-	
-	public void setMaterial(String material){
-		this.material = material;
-	}
-	
-	public String getMaterial(){
-		return material;
-	}
+	public class Shirt {
+		private String material;
 
-}
+		public Shirt(){
+		}
+
+		public void setMaterial(String material){
+			this.material = material;
+		}
+
+		public String getMaterial(){
+			return material;
+		}
+	}
